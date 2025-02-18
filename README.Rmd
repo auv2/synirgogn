@@ -1,0 +1,42 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# synirgogn
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of synirgogn is to ...
+
+## Installation
+
+You can install the development version of synirgogn from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("pak")
+pak::pak("auv2/synirgogn")
+```
+
+## Um gögnin
+
+Í þessum pakka eru nokkur sýnidæmi um gagnaskrár á atriðaleveli og sem heildartölur. Tilgangurinn er að sýna ólíkar gagnatýpur sem hægt er að nota til þess að þróa önnur tól, t.d. til skölunar eða annarra reikniverka.
+
+```{r example}
+library(synirgogn)
+## Dæmi um notkun
+data("tengispurningar_2008_2019")
+head(tengispurningar_2008_2019)
+```
+
